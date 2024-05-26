@@ -6,7 +6,7 @@ The vulkan projects are for doing Compute Shaders.
 You can create a new project via Flutter. Using *dart*
 
 ```sh
-dart create basic_template
+dart create basic_xxx
 ```
 
 You can also copy an existing basic project by:
@@ -21,9 +21,9 @@ You can also copy an existing basic project by:
 Note: you need to update the "program" to reference the appropriate target.
 ```json
 {
-    "name": "DartRunner",
-    "cwd": "/home/iposthuman/Documents/dart/DartOpenGL/",
-    "program": "basic_template/bin/main.dart",
+    "name": "DartVulkanRunner",
+    "cwd": "/home/iposthuman/Documents/dart/DartVulkan/",
+    "program": "basic_vulkan/bin/main.dart",
     "request": "launch",
     "type": "dart"
 },
